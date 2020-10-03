@@ -1,0 +1,62 @@
+.bodypage{
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    color: white;
+}
+.inputfield{
+    width: 50%;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    margin: 10px;
+}
+.inputfield:focus{
+    outline: none;
+}
+.submit_button{
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    color: black;
+    font-weight: 600;
+}
+.submit_button:focus{
+    outline: none;
+}
+.username{
+    text-align: right; 
+    margin-right: 10%;
+}
+.logout{ 
+    margin-top: -3.5%;
+}
+.logout a{ 
+    color: white;
+}
+.logo{
+    text-align: left;
+    margin: 3%;
+}
+.heading_petdetails{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -2%;
+}
+.heading{
+    margin-top: 2%;
+}
+
+.errormsg{
+    width: 50%;
+    height: 15px;
+    color: red;
+    font-size: 15px;
+    margin-left: 5%;
+}
